@@ -25,6 +25,17 @@ A Logseq plugin for missing types of fenced code block.
 - [ ] 🧑‍💻 which type do you want to support? Feel free to make
   your [request](https://github.com/xyhp915/logseq-fenced-code-plus/issues/new)!
 
+### Mermaid vendor maintenance
+
+- Bundled Mermaid version target: `11.14.0`
+- To update vendored Mermaid assets:
+
+```bash
+yarn update:mermaid
+# or pin a specific version
+yarn update:mermaid 11.14.0
+```
+
 ### Licence
 
 MIT
